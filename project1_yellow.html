@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>yellow</title>
+        <script src="project1.js"></script>
+        <link href="./project1_yellow.css" rel="stylesheet" type="text/css" />
+        <style></style>
+    </head>
+    
+    <body onLoad="current(1)">
+     
+        <audio controls autoplay>
+            <source src="yellow/yellow.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        
+        <a href=project1_0.html>Back</a>
+
+        
+        <h1>YOUTH AND BRIGHTNESS </h1>
+    
+        <div class="subtitle">
+            <p>An Unpredictable Journey of Growth</p>
+        </div>
+        
+
+        <div class="slideshow-container">
+
+            <div class="Slides fade">
+                <img src="yellow/cactus.JPG" style="width:63%">
+                <div class="caption">Yellow Cactus,1929</div>
+            </div>
+
+            <div class="Slides fade">
+                <img src="yellow/Jonquils.jpeg" style="width:70%">
+                <div class="caption">Yellow Jonquils #3,1936</div>
+            </div>
+
+            <div class="Slides fade">
+                <img src="yellow/squash.PNG" style="width:70%">
+                <div class="caption">Squash Flowers I, 1925</div>
+            </div>
+
+            <a class="prev" onclick="next(-1)">&#10094;</a>
+            <a class="next" onclick="next(1)">&#10095;</a>
+
+       </div> 
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="current(1)"></span> 
+            <span class="dot" onclick="current(2)"></span> 
+            <span class="dot" onclick="current(3)"></span> 
+        </div>
+      
+    </body>
+</html>

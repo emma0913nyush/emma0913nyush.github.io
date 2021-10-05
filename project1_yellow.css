@@ -1,0 +1,143 @@
+body {
+  background-color:whitesmoke;
+  font-family: Verdana, sans-serif; 
+  margin:0
+}
+
+a:link,a:visited{
+  background-color: whitesmoke;
+  border: 1px solid grey;
+  font-size: 16px;
+  margin-left: 10%; 
+  padding:1% 2%;
+  width:3%;
+  font-family: verdana; 
+  color:grey;
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+a:hover{
+  background-color: grey;
+  color:white;
+}
+
+h1 {
+  font-family: verdana;
+  margin-top:4%;
+  color:darkgray;
+  font-size: 26px;
+  text-align: center;
+  
+}
+
+
+.subtitle{
+  margin-top:1%;
+  font-family: verdana;
+  font-size: 14px;
+  text-align: center;
+  color:darkgray;
+
+}
+
+audio{
+    margin-left: 75%;
+
+}
+
+* {
+    box-sizing: border-box
+}
+.mySlides {
+    display:none
+}
+img {
+    display: block;
+    margin-top:5%;
+    margin-left: auto;
+    margin-right:auto;
+    vertical-align: middle;
+    align-self: center;
+}
+
+.slideshow-container {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 2%;
+  color: darkgrey;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  margin-right:auto;
+
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  margin-left: auto;
+}
+
+.prev:hover, .next:hover {
+  background-color: darkgrey;
+}
+
+.caption {
+  color: white;
+  font-size: 14px;
+  padding: 1%;
+  position:absolute;
+  bottom: 2%;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

@@ -1,0 +1,89 @@
+body {
+  background-color:whitesmoke;
+}
+
+a:link,a:visited{
+  background-color: whitesmoke;
+  border: 1px solid grey;
+  font-size: 16px;
+  margin-left: 10%; 
+  padding:1% 2%;
+  width:3%;
+  font-family: verdana; 
+  color:grey;
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+a:hover{
+  background-color: grey;
+  color:white;
+}
+
+h1 {
+  font-family: verdana;
+  margin-left: 10%;
+  margin-top:4%;
+  color:darkgray;
+  font-size: 26px;   
+  
+}
+
+
+.subtitle{
+  margin-top:1%;
+  font-family: verdana;
+  font-size: 14px;
+  width: 50%;
+  margin-left: 10%;
+  color:darkgray;
+
+}
+
+.caption1{
+    font-size:12px;
+    font-family: verdana;
+    margin-left: 10%;
+    color:grey;
+}
+
+.caption2{
+    font-size:12px;
+    font-family: verdana;
+    margin-left: 10%;
+    color:grey;
+}
+
+.caption3{
+    font-size:12px;
+    font-family: verdana;
+    margin-left: 10%;
+    color:grey;
+}
+
+.caption4{
+    font-size:12px;
+    font-family: verdana;
+    margin-left: 10%;
+    color:grey;
+}
+
+.caption5{
+    font-size:12px;
+    font-family: verdana;
+    margin-left: 10%;
+    color:grey;
+}
+
+
+
+img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top:2%;
+}
+
+audio{
+    margin-left: 75%;
+
+}
