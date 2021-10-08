@@ -9,23 +9,27 @@
         <style></style>
     </head>
     
+    //display slideshow while loading
     <body onLoad="current(1)">
      
+        //audio
         <audio controls autoplay>
             <source src="yellow/yellow.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
         
+        //back button
         <a href=index.html>Back</a>
 
-        
+        //title
         <h1>YOUTH AND BRIGHTNESS </h1>
     
+        //subtitle
         <div class="subtitle">
             <p>An Unpredictable Journey of Growth</p>
         </div>
         
-
+        //slideshow
         <div class="slideshow-container">
 
             <div class="Slides fade">
@@ -43,12 +47,14 @@
                 <div class="caption">Squash Flowers I, 1925</div>
             </div>
 
+            //arrow buttons
             <a class="prev" onclick="next(-1)">&#10094;</a>
             <a class="next" onclick="next(1)">&#10095;</a>
 
        </div> 
         <br>
 
+        //dots
         <div style="text-align:center">
             <span class="dot" onclick="current(1)"></span> 
             <span class="dot" onclick="current(2)"></span> 
